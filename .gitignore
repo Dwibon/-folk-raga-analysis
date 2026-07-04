@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Audio datasets
+data/raw/
+data/segments/
+*.wav
+*.mp3
+*.flac
+*.m4a
+
+# Generated features (optional)
+# data/features/
+
+# Logs
+logs/
+*.log
+
+# Model checkpoints
+models/
+*.pth
+*.pt
+*.ckpt
+
+# Temporary files
+tmp/
+cache/
